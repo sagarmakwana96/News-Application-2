@@ -1,0 +1,155 @@
+.cardAnchor{
+    color:black;
+}
+.cardAnchor:hover{
+    color:black;
+}
+
+.news_articles{
+    width: 96%;
+    margin-top: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 0.6px solid #b8c2bd;
+    overflow-y: auto;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0 0 8px #b8c2bd;
+}
+
+.article_image{
+    display: inline;
+}
+
+.article_image img{
+    object-fit: cover;
+    width:26%;
+    height:100%;
+    border: 3px solid white;
+    box-shadow: 0 0 8px #b8c2bd;
+    margin-right: 1%;
+
+}
+.article_description{
+    float: right;
+    width: 72.5%;
+    font-size: 14px;
+}
+
+.left{
+    float:left;
+}
+
+h4{
+    font-weight: 600;
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.modal-content{
+    width: 95%;
+    margin:0 auto;
+}
+
+.modal-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.load{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.load p{
+    margin:0 auto;
+}
+
+.other{
+    color:white;
+    background-color: #878686;
+    float: right;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.world{
+    color:white;
+    background-color: #9838f2;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius:4px;
+    font-weight: 600;
+}
+.politics{
+    color:white;
+    background-color: #29a393;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.business{
+    color:white;
+    background-color: #3991cc;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.technology{
+    color:black;
+    background-color: #aad13d;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.sports{
+    color:black;
+    background-color: #f0c622;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:650px) {
+    /* For mobile phones: */
+    .news_articles{
+        width: 92%;
+        margin-left: 4%;
+        overflow: hidden;
+    }
+
+    .article_description {
+      width: 100%;
+      font-size: 14px;
+    }
+
+    .article_image img{
+        width: 100%;
+    }
+}
