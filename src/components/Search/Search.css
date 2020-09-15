@@ -1,0 +1,150 @@
+a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.rowContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headerText{
+    margin-left:1.2%;
+}
+
+.news-articles{
+    margin-left:1.2%;
+    margin-bottom: 16px;
+    padding:15px;
+    border: 0.6px solid #b8c2bd;
+    height: 100%;
+    width: 23.5%;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding: 0 auto;
+    padding-bottom: 10px;
+    display: inline;
+    background-color: white;
+    box-shadow: 0 3px 8px #b8c2bd;
+    font-size: 12px;
+}
+
+.article_header{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.articleImage{
+    display: inline;
+}
+
+.articleImage img{
+    object-fit: cover;
+    width:100%;
+    max-height: 200px;
+    height:60%;
+    border: 3px solid white;
+    box-shadow: 0 0 8px #b8c2bd;
+}
+
+.articleFooter{
+    margin-top:10px;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.other{
+    color:white;
+    background-color: #878686;
+    float: right;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.world{
+    color:white;
+    background-color: #9838f2;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius:4px;
+    font-weight: 600;
+}
+.politics{
+    color:white;
+    background-color: #29a393;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.business{
+    color:white;
+    background-color: #3991cc;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.technology{
+    color:black;
+    background-color: #aad13d;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.sports{
+    color:black;
+    background-color: #f0c622;
+    float: right;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.load{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.load p{
+    margin:0 auto;
+}
+
+@media only screen and (max-width:650px) {
+    /* For mobile phones: */
+    .news-articles{
+        width: 91%;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        overflow: hidden;
+    }
+    .headerText{
+        margin-left:4.5%;
+    }
+}
