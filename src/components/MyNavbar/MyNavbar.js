@@ -40,7 +40,7 @@ class MyNavbar extends React.Component{
     const response = await fetch(url, {
       method: 'get',
       headers: {
-        'Ocp-Apim-Subscription-Key':'c1cbe74aed344cf2a23b084336544bd7'
+        'Ocp-Apim-Subscription-Key':''
       }
     });
     const result = await response.json();
